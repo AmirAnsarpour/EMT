@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Geologica';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/geologica/v1/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqD5_rQ-M.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Geologica';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/geologica/v1/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqDx_rQ-M.ttf) format('truetype');
+}
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+}
+body {
+  font-family: 'Geologica', sans-serif;
+  background-color: #494949;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+#main {
+  background-color: #242424;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0px 0px 10px #242424;
+}
+#one h2 {
+  text-align: center;
+}
+#one form label {
+  display: block;
+}
+#one form input {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  width: 95%;
+  color: white;
+  padding: 5px;
+  background-color: transparent;
+}
+#one form button {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  transition: all 350ms ease 0s;
+}
+#one form button:hover {
+  cursor: pointer;
+  background-color: #03af34;
+}
+#two {
+  margin: 10px auto;
+}
+#two table {
+  border-collapse: collapse;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+#two table tr {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+#two table tr td {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}

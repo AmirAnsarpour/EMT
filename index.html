@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMT</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="one">
+            <h2>EMT</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" maxlength="15"><br><br>
+
+                <label for="grade">Grade:</label>
+                <input type="number" id="grade" name="grade" max="20" maxlength="2"><br><br>
+
+                <label for="credit">Credit:</label>
+                <input type="number" id="credit" name="credit" max="4" maxlength="1"><br><br>
+
+                <button type="button" onclick="addCourse()">Add</button>
+            </form>
+        </div>
+
+        <div id="two">
+            <table id="courses">
+                <tr>
+                    <td>Row</td>
+                    <td>Name</td>
+                    <td>Grade</td>
+                    <td>Credit</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="three">
+            <h2>Your Avrage:</h2>
+            <h3 id="average"></h3>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
