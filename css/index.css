@@ -43,6 +43,7 @@ body {
 }
 #one form input {
   border: 1px solid rgba(255, 255, 255, 0.4);
+  font-family: 'Geologica', sans-serif;
   border-radius: 5px;
   width: 95%;
   color: white;
